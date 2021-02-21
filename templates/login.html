@@ -1,0 +1,28 @@
+{%extends "layout.html"%}
+{%block content%}
+<h1
+    style="font-family: 'Courier New', Courier, monospace;font-size: 6vw;text-align: center; padding: 5%; padding-bottom: 3%;">
+    Login</h1>
+
+    <div style="
+display: flex;
+align-items: center;
+justify-content: center;
+padding-bottom: 11%;">
+
+<form method="POST" style="padding-bottom: 10vh; padding-top: 0%;">
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" style="width: 300px;" name="mail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" name="pass" class="form-control" id="exampleInputPassword1">
+    </div>
+
+    <button type="submit"  style="background-color: black; color: white;" 
+    class="btn btn-primary">Submit</button>
+</form>
+</div>
+
+{%endblock%}

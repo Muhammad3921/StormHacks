@@ -1,0 +1,44 @@
+{%extends "layout.html"%}
+{%block content%}
+<div>
+    <h1
+    style="font-family: 'Courier New', Courier, monospace;font-size: 6vw;text-align: center; padding: 5%; padding-bottom: 1%;">
+    Sign Up!</h1>
+
+</div>
+<div style="
+display: flex;
+align-items: center;
+justify-content: center;
+padding-bottom: 3%;">
+    <form method="POST" style="padding-bottom: 5%; padding-top: 2%;">
+        <div class="mb-3" style="padding-top: 0%">
+            <label for="exampleInputWeight1" class="form-label">Please Enter Name</label>
+            <input type="Name" style="width: 300px;" name="w1" class="form-control" id="exampleInputWeight1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" name="mail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" name="pass" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputWeight1" class="form-label">Please Enter Weight(lbs)</label>
+            <input type="Weight" name="w1" class="form-control" id="exampleInputWeight1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputHeight1" class="form-label">Please Enter Height(in)</label>
+            <input type="Height" name="h1" class="form-control" id="exampleInputHeight1" aria-describedby="weightHelp">
+        </div>
+        
+        <button type="submit" style="background-color: black; color: white;" value="sub"  class="btn btn-primary">Submit</button>
+
+</div>
+
+</form>
+
+</div>
+
+{%endblock%}

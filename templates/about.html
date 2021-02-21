@@ -1,0 +1,33 @@
+{%extends "layout.html"%}
+{%block content%}
+<h1
+    style="font-family: 'Courier New', Courier, monospace;font-size: 6vw;text-align: center; padding: 5%; padding-bottom: 3%;">
+    About Us</h1>
+<div style="display: inline; font-family: 'Courier New', Courier, monospace;">
+    <div style="width: 60%; padding-left: 5%; padding-bottom: 10%;display: inline-block;">
+        <h4>
+        Due to the COVID-19 pandemic a lot of people are unable to go to the gyms and workout. 
+        There are a ton of youtube videos and it's always difficult to figure out what to watch. 
+        That's where we come in!
+        </h4>
+        <br>
+        <h4> 
+        We will figure out what videos work for you with regards to how 
+        much time you have available and what equipment you have available. There are millions of 
+        videos online and we will find the right ones for you. We will push to keep you motivated 
+        and healthy. We want to be that motivating factor that pushes you to continue to excercise 
+        each day and stay fit!
+        </h4>  
+        <br>
+        <h4>  
+        Through your input we query our database and find corresponding videos that meet your needs. 
+        Work from home can be difficult and making time to workout can be hard as well. Let us manage 
+        that for you and enjoy your workouts. With weekly schedules at the start of each week, you won't 
+        ever have to worry about finding the right workout video again!
+        </h4>  
+    </div>
+    <div style="width: 40%;display: inline-block; margin: 0px; padding: 0px; position: absolute; top: 30%; padding-left: 5%;">
+        <img style="width:85%;height:85%;border-radius: 35px;" src="{{ url_for('static',filename='aboutpage.jpg') }}" />
+    </div>
+</div>
+{%endblock%}

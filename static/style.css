@@ -1,0 +1,46 @@
+/* Sticky Footer Classes */
+
+html,
+body {
+  height: 100%;
+  
+}
+.jumbotron {
+    height: 100vh;
+}
+
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#myProgress {
+  width: 100%;
+  background-color: grey;
+}
+
+
+.spc {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
+}
